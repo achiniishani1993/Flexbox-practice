@@ -1,5 +1,5 @@
 *,
-*::before,  /*  apply global box-sizing: border-box to all elements using a universal selector */
+*::before,  /*  apply global box-sizing: border-box to all elements using a universal selector https://dev.to/cindykandie/why-and-how-to-use-box-sizing-border-box-in-your-css-layouts-30ei*/
 *::after {
   box-sizing: border-box;
 }
@@ -47,8 +47,8 @@ body {
   align-items: center;
 }
 .fourthblock {
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content:space-evenly;
+  align-items:flex-start;
 }
 .fifthblock {
   justify-content: space-evenly;
@@ -61,8 +61,8 @@ body {
   font-size: 12px;
 }
 .sixthblock {
-  justify-content: space-around;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
 }
 
 /* items styles  */
