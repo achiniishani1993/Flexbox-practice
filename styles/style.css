@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page {
+     display: flex;
+    flex-direction: column;
+    gap: 20px; 
+     background-color: #370617;
+}
+
+.row {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+   
+
+}
+
+.container {
+ display: flex;
+ align-items: flex-end;
+ background-color: #F48C06;
+ border-radius: 8px;
+ width: 468px;
+ height: 160px;
+ 
+}
+
+.item {
+ border-radius: 4px;
+ width: 78px;
+ height: 78px;
+ margin-left: 19px;
+ margin-bottom: 19px;
+ background-color: #9D0208;
+}
