@@ -103,8 +103,8 @@ align-items: center;
 }
 
 .fifthblockitem {
-     height: 64px;  
+     height: 64px; 
+     align-self: center; 
    
-  
 }
 
