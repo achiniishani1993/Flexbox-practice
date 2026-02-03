@@ -1,5 +1,5 @@
 *,
-*::before,  
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -9,26 +9,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(250,163,8);
+  background-color: rgb(250, 163, 8);
 }
 .page {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin: 20px;
   padding: 20px;
   gap: 20px;
-  
 }
 .firstline {
-   display: flex;
-    gap:20px;
+  display: flex;
+  gap: 20px;
 }
 
 .secondline {
-    display: flex;
-    gap:20px;
-    justify-content: flex-start;
-    
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
 }
 .container {
   display: flex;
@@ -36,28 +34,43 @@ body {
   width: 273px;
   height: 220px;
   padding: 20px;
-  gap: 20px;
 }
 
-.firstblock, .thirdblock , .fifthblock  {
-  background-color: #03071E;
+.firstblock,
+.thirdblock,
+.fifthblock {
+  display: flex;
+  flex-direction: column;
+  background-color: #03071e;
 }
 
-.secondblock, .fourthblock {
-  background-color: #6A040F; 
+.secondblock,
+.fourthblock {
+  display: flex;
+  flex-direction: column;
+  background-color: #6a040f;
 }
 
 .firstblock {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
-
+  align-items: flex-start;
 }
 .secondblock {
- display: flex;
- flex-direction: column;
- justify-content:flex-end;
- align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.thirdblock {
+  justify-content: space-between;
+}
+
+.fourthblock {
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.fifthblock {
+  justify-content: center;
+  align-items: center;
 }
 
 .dot {
@@ -65,18 +78,31 @@ body {
   width: 50px;
   background-color: #bbb;
   border-radius: 50%;
-
 }
 .circlefirstline,
 .circlesecondline {
   display: flex;
-  gap: 20px;   /* space between circles */
+  gap: 20px; /* space between circles */
 }
 .circlesecondline {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .secondblocklineOne {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.thirdblocklineOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.thirdblocklineTwo {
+  display: flex;
+  justify-content: space-between;
+}
+.fourthblocklineOne,
+.fourthblocklineTwo {
+  justify-content: space-between;
 }
