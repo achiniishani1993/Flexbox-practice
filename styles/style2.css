@@ -13,37 +13,70 @@ body {
 }
 .page {
   display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
+  flex-direction: column;
   margin: 20px;
   padding: 20px;
   gap: 20px;
   
 }
+.firstline {
+   display: flex;
+    gap:20px;
+}
+
+.secondline {
+    display: flex;
+    gap:20px;
+    justify-content: flex-start;
+    
+}
 .container {
   display: flex;
+  flex-wrap: wrap;
   width: 273px;
   height: 220px;
   padding: 20px;
   gap: 20px;
 }
 
-.firstblock {
+.firstblock, .thirdblock , .fifthblock  {
   background-color: #03071E;
 }
 
-.secondblock {
+.secondblock, .fourthblock {
   background-color: #6A040F; 
 }
 
-.thirdblock {
-     background-color: #03071E;
+.firstblock {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+
+}
+.secondblock {
+ display: flex;
+ flex-direction: column;
+ justify-content:flex-end;
+ align-items: flex-end;
 }
 
-.fourthblock {
-    background-color: #6A040F; 
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+
+}
+.circlefirstline,
+.circlesecondline {
+  display: flex;
+  gap: 20px;   /* space between circles */
+}
+.circlesecondline {
+ margin-top: 20px;
 }
 
-.fifthblock {
- background-color: #03071E;
+.secondblocklineOne {
+    display: flex;
+    justify-content: flex-end;
 }
