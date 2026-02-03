@@ -1,0 +1,49 @@
+*,
+*::before,  
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250,163,8);
+}
+.page {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  gap: 20px;
+  
+}
+.container {
+  display: flex;
+  width: 273px;
+  height: 220px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.firstblock {
+  background-color: #03071E;
+}
+
+.secondblock {
+  background-color: #6A040F; 
+}
+
+.thirdblock {
+     background-color: #03071E;
+}
+
+.fourthblock {
+    background-color: #6A040F; 
+}
+
+.fifthblock {
+ background-color: #03071E;
+}
